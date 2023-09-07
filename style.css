@@ -1,0 +1,70 @@
+* {
+    box-sizing:  border-box ; 
+    background: #f2f2f2;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Titre H2 */
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size : 2.4rem; 
+    color: #070142; 
+  
+    margin-bottom : 30px ; 
+ 
+ 
+}
+
+/* classe des boutons/sections  */
+.custom-accordion {
+
+ background: #ffbc34;
+ color : #070142; 
+ cursor : pointer; 
+ padding: 20px;
+ width: 100%;
+ border: none ;
+ text-align: left;
+ font-size: 1rem;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+ font-weight: 600;
+ outline : none ;
+ transition : 0.4s ; 
+
+
+
+}
+
+
+/* au survole on change la couleur du fond et de la police  */
+.active , .custom-accordion:hover {
+background: #070142;
+color : white ; 
+opacity: 0.8; 
+}
+
+/* Section du paragraphe  */
+.paragraph-accordion {
+padding: 0 20px;
+display: none;
+background: white; 
+overflow: hidden;
+
+
+}
+
+/* paragraphe  */
+.top-paragraph { 
+    font-size : 0.9rem; 
+    color : #070142 ; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background: white;
+    
+}
+
+
+
+
+
